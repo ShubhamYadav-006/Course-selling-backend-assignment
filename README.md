@@ -1,2 +1,2 @@
 # Course-selling-backend-assignment
-This is and course selling backend project .
+This is an course selling backend project .
