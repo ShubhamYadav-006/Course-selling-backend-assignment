@@ -5,7 +5,6 @@ This is a backend project for a Course Selling Platform built using Node.js, Exp
 The main purpose of this project is to create the backend structure, API routes, and Prisma schema. As mentioned in the assignment, the database is not connected, so the APIs return sample responses only.
 
 ## Project Structure
-
 ```
 src
 │

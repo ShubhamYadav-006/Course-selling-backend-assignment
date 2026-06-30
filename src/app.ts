@@ -1,6 +1,5 @@
 import express from "express";
 import cors from "cors";
-
 import authRoutes from "./routes/auth.routes";
 import courseRoutes from "./routes/course.routes";
 import studentRoutes from "./routes/student.routes";

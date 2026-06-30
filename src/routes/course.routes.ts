@@ -1,14 +1,9 @@
 import { Router } from "express";
-import {
-  getCourses,
-  createCourse,
-  getCourseId,
-} from "../controllers/course.controller";
+import { createCourse } from "../controllers/course.controller";
+import { authMiddleWare } from "../middlewares/auth.middlewares"
 
 const router = Router();
 
-router.get("/", getCourses);
-router.post("/", createCourse);
-router.get("/:id", getCourseId);
+router.post("/", authMiddleWare, createCourse);
 
 export default router;

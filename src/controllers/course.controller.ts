@@ -7,6 +7,7 @@ export const getCourses = (req: Request, res: Response) => {
 };
 
 export const createCourse = (req: Request, res: Response) => {
+  
   res.status(201).json({
     message: "Course created successfully"
   });
